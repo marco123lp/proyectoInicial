@@ -1,0 +1,83 @@
+*{/**reseteo de navegador*/
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	box-sizing: border-box; /*Me permite contener todo el modelo de la caja principal*/
+	border-radius: 0.2em;/*curvatura de la caja*/
+
+}
+body{
+	max-width: 100%;/*anchura max*/
+	float: left;/*flotar de izq a der*/
+}
+.container{
+	width: 80%;/**ancho*/
+	background-color: #d2d2d2;/*color de la caja*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.8em;
+	overflow: hidden; /*me permite matener estable el colode del fondo*/
+}
+header{
+	background-color: #eb4a33;
+	padding: 1.2em 0;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0.2em;
+}
+header nav ul li{
+	display: inline-block;
+	margin-left:12em;
+}
+header li a:hover{
+	background-color: red;
+	padding: 1.2em;
+}
+.main{
+	width: 66%; 
+	float: left;
+	margin-top: 0.3em;
+	padding: 0.5em;
+
+}
+article{
+	background-color: orange;
+}
+.imagen{
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+article figure h2{
+	color: #123456;
+	text-align: center;
+}
+.articulo{
+	width: 33%;
+	float: left;
+	background-color: #fff;
+	padding: 0.5em;
+	margin-top: 0.2em;
+}
+#inferiores{
+	float: right;/**/
+}#central{
+	margin-left: 0.35em;/**/
+}
+aside{
+	width: 33%;
+	background: #123456;
+	padding: 1.2em;
+	color: #fff;
+	float: right;
+}
+footer{
+	clear: both;
+	float: left;
+	background-color: #000;
+	color: #fff;
+	width: 100%;
+	padding: 0.5em;
+	border-radius: 0.2em;
+}

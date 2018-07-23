@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: justify;
+	box-sizing: border-box; /*Me permite contener todo el modelo de la caja principal*/
+	border-radius: 0.2em;
+
+}
+body{
+	max-width: 100%;
+	float: left;
+
+}
+.container{
+	width: 80%;
+	background: #d2d2d2;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0.2em;
+	margin-top: 0.8em;
+	overflow: hidden; /*me permite matener el estable el colode del fondo*/
+}
+header{
+	background-color: #eb4a33;
+	padding: 1.2em 0;
+}
+header li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0.2em;
+}
+header li{
+	display: inline-block;
+	margin-left:12em;
+}
+header li a:hover{
+	background-color: orange;
+	padding: 1.2em;
+}
+.main{
+	width: 63%; 
+	float: left;
+	margin-top: 0.3em;
+	padding: 0.5em;
+}
+.imagen{
+	width: 100%;
+	border-radius: 0.2em;
+	margin-bottom: 0.5em;
+}
+article figure h2{
+	color: #123456;
+	text-align: center;
+}
+.articulo{
+	width: 49%;
+	float: left;
+	background-color: #fff;
+	padding: 0.5em;
+}
+#inferiores{
+	float: right;
+}
+aside{
+	float: left;
+	width: 35%;
+	background: #123456;
+	padding: 1.2em;
+	color: #fff;
+	float: right;
+}
+footer{
+	clear: both;
+	float: left;
+	background-color: #000;
+	color: #fff;
+	width: 100%;
+	padding: 0.5em;
+	border-radius: 0.2em;
+}
+hr{
+	background-color: #e11111;
+	height: 0.3em;
+}
+#cambio{
+	color: yellow;
+}
+strong{
+	font-size: 30px;
+}
+aside{
+	margin-left: 1px;	
+	/*background-color: yellow;*/
+	}
